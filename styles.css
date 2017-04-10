@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #F2F1ED;
+	color: #444;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	height: 75px;
+	width: 150px;
+	line-height: 75px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px 10px;
+}
+
+nav ul li:hover {
+	background: #999;
+}
+nav {
+	width: 60%;
+	margin: auto auto;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 20% 0 20%;
+}
+
+h2 {
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+	color: #DE5A51;
+}
+
+.active {
+	background: #999;
+	color: #DE5A51;
+}
