@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -7,7 +7,7 @@ html, body {
 body {
 	background: #F2F1ED;
 	background-repeat: no-repeat;
-	background-position: fixed;
+	background-attachment: fixed;
 	color: #DE5A51;
 	font-family: 'Lato', Sans-serif;
 }
@@ -21,15 +21,17 @@ nav ul li {
 	height: 75px;
 	width: 150px;
 	line-height: 75px;
-	border: 2px solid black;
 	border-radius: 10px;
 	margin: 10px 10px;
 	background-color: black;
 	font-size: 16pt;
+	font-family: 'Dancing Script', cursive;
+	color: #DE5A51;
 }
 
 nav ul li:hover {
 	background: #999;
+	border: 2px solid black;
 }
 nav {
 	width: 100%;
@@ -55,7 +57,7 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #DE5A51;
+	color: #999;
 }
 
 .active {
@@ -74,8 +76,13 @@ a {
 	border-radius: 15px;
 }
 
+
 p {
 	font-weight: bold;
+	font-size: 16pt;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
@@ -103,4 +110,12 @@ section {
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+
+.p-left {
+	margin-left: 0;
+}
+
+.p-right {
+	margin-right: 0;
 }
