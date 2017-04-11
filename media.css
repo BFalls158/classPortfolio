@@ -1,0 +1,23 @@
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    	body {
+    		font-weight: bolder;
+
+    	}	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	body {
+    		font-weight: bold;
+
+    	}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	body {
+    		font-weight: normal;
+    		
+   		}
+   	}
