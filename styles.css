@@ -1,8 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html, body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
+}
+body {
 	background: #F2F1ED;
-	color: #444;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	color: #DE5A51;
+	font-family: 'Lato', Sans-serif;
 }
 
 nav ul {
@@ -17,24 +24,33 @@ nav ul li {
 	border: 2px solid black;
 	border-radius: 10px;
 	margin: 10px 10px;
+	background-color: black;
+	font-size: 16pt;
 }
 
 nav ul li:hover {
 	background: #999;
 }
 nav {
-	width: 60%;
+	width: 100%;
 	margin: auto auto;
 	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 3;
 }
 
 #wrapper {
-	margin: 0 20% 0 20%;
+	margin: 100px 15% 0 15%;
+	min-height: 100%;
+	position: relative;
+}
+h1, h2, h3, footer {
+	text-align: center; 
 }
 
-h2 {
-	text-align: center;
-
+h3 {
+	font-size: 40pt;
 }
 
 a {
@@ -45,4 +61,46 @@ a {
 .active {
 	background: #999;
 	color: #DE5A51;
+}
+
+#projects {
+	width: 100%;
+	text-align: center;
+}
+
+.project-img {
+	display: inline-block;
+	margin: 10px 10px;
+	border-radius: 15px;
+}
+
+p {
+	font-weight: bold;
+}
+
+footer {
+	height: 30px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+header {
+	padding: 10px;
+}
+
+section {
+	padding-bottom: 30px;
+}
+
+#welcome {
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
