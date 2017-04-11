@@ -22,7 +22,7 @@ nav ul li {
 	width: 150px;
 	line-height: 75px;
 	border-radius: 10px;
-	margin: 10px 10px;
+	margin: 0px 10px;
 	background-color: black;
 	font-size: 16pt;
 	font-family: 'Dancing Script', cursive;
@@ -40,6 +40,7 @@ nav {
 	position: fixed;
 	top: 0;
 	z-index: 3;
+	background-color: #F2F1ED;
 }
 
 #wrapper {
