@@ -84,7 +84,7 @@ a {
 
 .project-img {
 	display: inline-block;
-	margin: 10px 10px 0 10px;
+	/*margin: 10px 10px 0 10px;*/
 	border-radius: 15px;
 	width: 90%;
 }
