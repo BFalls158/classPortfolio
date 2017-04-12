@@ -1,23 +1,45 @@
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
+   	@media screen and (max-width: 1024px) {
+   		body {
+   			font-weight: normal;
+   		}
+	}
+
+	@media screen and (max-width: 768px) {
+		body {
+			font-weight: bold;
+		}
+
+    	nav ul li {
+    		margin-left: 0;
+    		width: 100%;
+    		height: 25px;
+    		line-height: 25px;
+    		font-size: 20px;
+    		
+    	}
+
+		
+	}
+
+	@media screen and (max-width: 480px) {
+		nav {
+    		width: 100%;
+    	}
+
+    	nav ul li {
+    		margin:0 auto;
+    		width: 100%;
+    		height: 25px;
+    		line-height: 25px;
+    		font-size: 20px;
+    		background-color: hotpink; /*Hidious*/
+    		color: yellow; /*Also Hidious*/
+    	}
     	body {
     		font-weight: bolder;
-
-    	}	
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-    	body {
-    		font-weight: bold;
-
     	}
-    }
 
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-    	body {
-    		font-weight: normal;
-    		
-   		}
-   	}
+    	.p-left, .p-right {
+    		margin:0 auto;
+    	}
+	}
