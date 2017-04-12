@@ -13,6 +13,14 @@ body {
 	color: #DE5A51;
 	font-family: 'Lato', Sans-serif;
 }
+
+#index {
+	background: url("https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+
 /*nav bar styling*/
 nav ul {
 	list-style-type: none;
@@ -134,4 +142,8 @@ section {
 	margin-right: 0;
 }
 
-/*Animations*/
+#welcome-text {
+	background-color: rgba(242, 241, 237, 0.7);
+	border-radius: 20px;
+	border: 2px solid #F2F1ED;
+}
