@@ -18,6 +18,10 @@
     		
     	}
 
+        .project-divs {
+            width: 45%;
+        }
+
 		
 	}
 
@@ -42,4 +46,8 @@
     	.p-left, .p-right {
     		margin:0 auto;
     	}
+
+        .project-divs {
+            width: 100%;
+        }
 	}
